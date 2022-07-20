@@ -15,7 +15,7 @@ const HomePage = () => {
         {quizList.map((e) => (
           <Link
             key={e.id}
-            to='/quiz'
+            to='/rules'
             onClick={() => {
               setQuiz(e);
             }}>
