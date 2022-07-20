@@ -1,0 +1,51 @@
+@import url("https://peaceui.netlify.app/peace.css");
+
+:root {
+    --background: #22343C;
+    --card-background: #2A3C44;
+    --primary: #FFC542;
+}
+
+body {
+    background: var(--background);
+}
+
+@import "../styles/quiz.css";
+
+.page-title {
+    margin: 1em;
+    color: var(--primary);
+    font-weight: var(--semi-bold);
+}
+
+.topics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 4em 25% 10em 25%;
+}
+
+.card {
+    color: var(--primary);
+    background: var(--card-background);
+    border: 2px solid var(--card-background);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    padding: 0.5em 0.2em 0.5em 0.2em;
+}
+
+.card-subtitle {
+    font-size: 0.8rem;
+    padding: 0.2em;
+    opacity: 80%;
+}
+
+.card-img>img {
+    width: 100%;
+}
+
+.card:hover {
+    border: 2px solid var(--primary);
+}

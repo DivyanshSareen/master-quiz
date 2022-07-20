@@ -1,0 +1,59 @@
+@import url("https://peaceui.netlify.app/peace.css");
+
+:root {
+    --background: #22343C;
+    --card-background: #2A3C44;
+    --primary: #FFC542;
+    --hover-primary: #625B39;
+    --text: #FFFFFF;
+    --wrong: #FF464F;
+    --correct: #25C685;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+}
+
+.page-title {
+    margin: 1em;
+    color: var(--primary);
+    font-weight: var(--semi-bold);
+}
+
+.quiz {
+    margin: 4em 20% 4em 20%;
+}
+
+.quiz-stat {
+    display: flex;
+}
+
+.ques-no {
+    margin-right: auto;
+}
+
+.score {
+    margin-left: auto;
+}
+
+.question {
+    font-size: 1.3rem;
+    padding: 2em 0 2em 0;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.choice {
+    background: var(--card-background);
+    padding: 1.75em;
+    border-radius: var(--radius-m);
+}
+
+.choice:hover {
+    background: var(--hover-primary);
+}
