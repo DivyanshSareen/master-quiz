@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+##  <img width="40px" src="https://user-images.githubusercontent.com/59335572/179963471-04063fc8-77ee-47ed-92fa-a3e9ec0526cf.svg" />Master Quiz
+Master Quiz is a React based SPA where you can enjoy fun quizzes on your favourite topics. Currently we have quizzes on The Office and Haikyu!. You can expect the following functionalities from the web app:
+| Feature         | Description                                                                      |
+| --------------- | -------------------------------------------------------------------------------- |
+| Hompage         | Landing Page with quiz listings                                                  |
+| Quiz Page       | Contains MCQ based questions relevant to the topic                               | 
+| Result Page     | User Score and Answers are displayed on this page                                |
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo 
 
-## Available Scripts
+Here is a netlify link for live demo🪄: [![Netlify Status](https://api.netlify.com/api/v1/badges/810b0aec-ee6e-4c4c-acbc-6370bdab179e/deploy-status)](https://quizmasterweb.netlify.app/)
 
-In the project directory, you can run:
+## Techstack
 
-### `npm start`
+### Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ReactJS: Decarative JavaScript library for frontend development
+- PeaceUI: A CSS component framework made by yours truly. [link](https://peaceui.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Run Locally
 
-### `npm test`
+Follow these steps to setup this web app on your local server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this Repository or download the code from this repo to your local machine.
+2. Navigte to the root directory of the project.
+4. Install npm packages if not done already using `npm install`
+5. Now staying in the root directory run the command: `npm start`
+6. You will find the web app running on your local server.
 
-### `npm run build`
+## Future Goals
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Add more fun quizzes!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Devloped by
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Divyansh Sareen  (•◡•) /
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Icon by
+<a href="https://iconscout.com/icons/question" target="_blank">Question Icon</a> by <a href="https://iconscout.com/contributors/jemismali" target="_blank">Jemis Mali</a>
