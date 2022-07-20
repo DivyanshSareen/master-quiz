@@ -27,6 +27,8 @@ const QuizProvider = ({ children }) => {
         setQuesCounter,
         score,
         userAnswers,
+        setScore,
+        setUserAnswers,
         resetQuiz,
       }}>
       {children}

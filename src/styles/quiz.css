@@ -55,5 +55,5 @@ body {
 }
 
 .choice:hover {
-    background: var(--hover-primary);
+    background: var(--primary);
 }
