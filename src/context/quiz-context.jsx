@@ -4,6 +4,7 @@ import data from "../data/data";
 const QuizContext = createContext();
 
 const QuizProvider = ({ children }) => {
+  // eslint-disable-next-line no-unused-vars
   const [quizList, setQuizList] = useState(data);
   const [quiz, setQuiz] = useState({});
   const [quesCounter, setQuesCounter] = useState(0);
