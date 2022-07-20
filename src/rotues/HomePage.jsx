@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useQuiz } from "../context/quiz-context";
 
 const HomePage = () => {
-  const { quizList, setQuiz } = useQuiz();
+  const { quizList, setQuiz, resetQuiz } = useQuiz();
+  useEffect(() => {
+    resetQuiz();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   return (
     <>
       <h5 className='h4 page-title center-text'>Quiz App</h5>
